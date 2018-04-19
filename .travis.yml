@@ -8,3 +8,8 @@ jdk:
 install: true
 
 script: ci/build.sh
+
+cache:
+  directories:
+  - $HOME/.gradle/wrapper
+  - $HOME/.gradle/caches
