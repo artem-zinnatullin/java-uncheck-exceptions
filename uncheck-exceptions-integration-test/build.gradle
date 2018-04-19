@@ -1,0 +1,6 @@
+apply plugin: 'java-library'
+
+dependencies {
+    testImplementation files('../build/libs/uncheck-exceptions.jar')
+    testImplementation testLibraries.junit4
+}

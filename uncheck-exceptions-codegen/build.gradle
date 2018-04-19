@@ -1,8 +1,21 @@
-apply plugin: 'java-library'
 apply plugin: 'kotlin'
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.artemzin.uncheckexceptions.codegen.CodegenUncheckExceptionsKt'
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class' : mainClassName
+        )
+    }
+}
 
 dependencies {
-    implementation libraries.kotlinStdlib
+    compile libraries.kotlinStdlib
+    compile libraries.asm
+    compile libraries.asmUtil
 }
 
 dependencies {

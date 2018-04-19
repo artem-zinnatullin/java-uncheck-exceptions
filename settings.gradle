@@ -1,2 +1,2 @@
 include ':uncheck-exceptions-codegen'
-include ':uncheck-exceptions'
+include ':uncheck-exceptions-integration-test'

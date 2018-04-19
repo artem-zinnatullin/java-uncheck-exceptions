@@ -1,10 +1,12 @@
 /.idea/
 *.iml
 local.properties
-# Share code style.
 !.idea/codeStyleSettings.xml
+out/
 
 .DS_Store
 
 .gradle
 build/
+
+*.jar

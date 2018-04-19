@@ -1,12 +1,15 @@
 ext.versions = [
-        kotlin : '1.2.31',
-        junit  : '4.12',
+        kotlin: '1.2.31',
+        asm   : '6.1.1',
+        junit : '4.12',
 ]
 
 ext.libraries = [
         kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin",
+        asm         : "org.ow2.asm:asm:$versions.asm",
+        asmUtil     : "org.ow2.asm:asm-util:$versions.asm",
 ]
 
 ext.testLibraries = [
-        junit4 : "junit:junit:$versions.junit",
+        junit4: "junit:junit:$versions.junit",
 ]
