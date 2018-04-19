@@ -49,6 +49,7 @@ However you can download jar to play with from [Releases page](https://github.co
 
 ## Alternatives
 
+- "Sneaky Throw" (just google that), it's a trick with Java generics that lets you do it from Java code. [Example in Okio](https://github.com/square/okio/blob/5f09744e1720e7d4a7da9076b701a2350bf7ec39/okio/src/main/java/okio/Util.java#L64)
 - [Lombok's `@SneakyThrows` feature](https://projectlombok.org/features/SneakyThrows) allows you do just that, but requires to use Lombok (duh).
 - [Kotlin lets you throw any exceptions as unchecked](https://kotlinlang.org/docs/reference/exceptions.html#checked-exceptions), but requires to use Kotlin (duh). It's a great alternative though, but there are foundational projects like RxJava that can't use Kotlin
 
