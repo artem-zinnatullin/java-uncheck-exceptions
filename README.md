@@ -47,6 +47,11 @@ I haven't published it to Maven Central yet (hopefully will do soon, Gradle publ
 
 However you can download jar to play with from [Releases page](https://github.com/artem-zinnatullin/java-uncheck-exceptions/releases).
 
+## Alternatives
+
+- [Lombok's `@SneakyThrows` feature](https://projectlombok.org/features/SneakyThrows) allows you do just that, but requires to use Lombok (duh).
+- [Kotlin lets you throw any exceptions as unchecked](https://kotlinlang.org/docs/reference/exceptions.html#checked-exceptions), but requires to use Kotlin (duh). It's a great alternative though, but there are foundational projects like RxJava that can't use Kotlin
+
 ## Contributing
 
 ### Project Structure
