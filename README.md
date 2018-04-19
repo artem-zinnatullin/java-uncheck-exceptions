@@ -13,7 +13,7 @@ There are big production projects that have a method that wrap exception into `R
 
 ## Goal
 
-Throw checked `Exception`s and `Throwable`s **without wrapping** and **without** declaring it in method description.
+Throw checked `Exception`s and `Throwable`s **without wrapping** and **without declaring** it in method description.
 
 ## Implementation
 
