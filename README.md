@@ -79,4 +79,4 @@ You can import project in IntelliJ or your JVM IDE of choice.
 Note:
 
 >`uncheck-exceptions-integration-test` might be red in IDE until you run `ci/build.sh` because it links to jar that needs to be generated first.
->PRs to wire it properly via Gradle are very welcome!
+>PRs to wire it properly via Gradle is very welcome!
