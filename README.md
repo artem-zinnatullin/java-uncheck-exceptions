@@ -54,7 +54,7 @@ However you can download jar to play with from [Releases page](https://github.co
 Project has two modules:
 
 - `uncheck-exceptions-codegen` generates bytecode that can throw checked exception as unchecked (has unit tests).
-- `uncheck-exceptions-integration-test` consumes uncheck-exceptions.jar to and runs integration tests to make sure library works as expected.
+- `uncheck-exceptions-integration-test` consumes generated `uncheck-exceptions.jar` and runs integration tests to make sure library works as expected.
 
 ### Building
 
