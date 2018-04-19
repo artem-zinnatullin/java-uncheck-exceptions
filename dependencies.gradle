@@ -1,0 +1,12 @@
+ext.versions = [
+        kotlin : '1.2.31',
+        junit  : '4.12',
+]
+
+ext.libraries = [
+        kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin",
+]
+
+ext.testLibraries = [
+        junit4 : "junit:junit:$versions.junit",
+]

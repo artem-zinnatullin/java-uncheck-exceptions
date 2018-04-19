@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation libraries.kotlinStdlib
+}
+
+dependencies {
+    testImplementation testLibraries.junit4
+}
